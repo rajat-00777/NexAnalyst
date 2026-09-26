@@ -1,0 +1,21 @@
+order_id,order_date,product,category,region,quantity,unit_price,revenue,customer_id
+1001,2024-01-05,Wireless Mouse,Electronics,North,3,25.5,76.5,C001
+1002,2024-01-06,Office Chair,Furniture,South,1,120.0,120.0,C002
+1003,2024-01-07,Laptop Stand,Electronics,East,2,35.0,70.0,C003
+1004,2024-01-08,Desk Lamp,Furniture,West,,18.0,,C004
+1005,2024-01-09,Wireless Mouse,Electronics,North,5,25.5,127.5,C001
+1006,2024-01-10,Notebook Pack,Stationery,South,10,4.5,45.0,C005
+1007,2024-01-11,Office Chair,Furniture,East,1,120.0,120.0,C006
+1008,2024-01-12,Laptop Stand,Electronics,North,3,35.0,105.0,C007
+1009,2024-01-13,Desk Lamp,Furniture,South,2,18.0,36.0,C008
+1010,2024-01-14,Notebook Pack,Stationery,West,20,4.5,90.0,C009
+1011,2024-01-15,Wireless Mouse,Electronics,East,1,25.5,25.5,C010
+1012,2024-01-16,Office Chair,Furniture,North,2,120.0,240.0,C002
+1013,2024-01-17,Laptop Stand,Electronics,South,,35.0,,C011
+1014,2024-01-18,Desk Lamp,Furniture,East,4,18.0,72.0,C012
+1015,2024-01-19,Notebook Pack,Stationery,North,15,4.5,67.5,C013
+1016,2024-01-20,Wireless Mouse,Electronics,West,2,25.5,51.0,C001
+1017,2024-01-21,Office Chair,Furniture,South,1,120.0,120.0,C014
+1018,2024-01-22,Laptop Stand,Electronics,North,6,35.0,210.0,C015
+1019,2024-01-23,Desk Lamp,Furniture,West,3,18.0,54.0,C004
+1020,2024-01-24,Notebook Pack,Stationery,East,8,4.5,36.0,C016

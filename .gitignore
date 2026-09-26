@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+
+# Environment variables (contains your Groq API key — never commit this)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Pytest cache
+.pytest_cache/
+
+# Generated outputs (charts and reports are created at runtime — keep the folders, ignore their contents)
+outputs/charts/*
+!outputs/charts/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/

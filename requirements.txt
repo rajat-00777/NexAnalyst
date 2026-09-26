@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+langgraph
+langchain
+langchain-groq
+plotly
+matplotlib
+openpyxl
+python-dotenv
+pytest
+statsmodels

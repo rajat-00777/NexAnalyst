@@ -1,0 +1,11 @@
+﻿id,name,age,city,salary,join_date,status
+1,Alice,28,New York,55000,2021-03-15,Active
+2,Bob,,New York,62000,2021-04-01,active
+3,Charlie,35,Los Angeles,,2021-05-20,Active
+4,Dave,41,los angeles,71000,invalid_date,Inactive
+5,Eve,29,Chicago,58000,2021-06-10,Active
+5,Eve,29,Chicago,58000,2021-06-10,Active
+7,Frank,,,49000,2021-07-25,
+8,Grace,120,New York,,2021-08-30,Active
+9,Heidi,33,Chicago,65000,2021-09-05,inactive
+10,,38,Boston,,2021-10-12,Active
