@@ -26,9 +26,9 @@ def _column_role(col: str, profile: dict) -> str:
     return "Other"
 
 
-st.set_page_config(page_title="AI Data Analyst", layout="wide")
-st.title("🤖 AI Data Analyst")
-st.caption("Upload + Data Agent + Cleaning Agent + EDA Agent + Insight Agent + Validation Agent + Recommendation Agent + Visualization Agent + Report Agent")
+st.set_page_config(page_title="NexAnalyst", page_icon="📊", layout="wide")
+st.title("📈 NexAnalyst")
+st.caption("Your autonomous AI data analyst: upload a dataset and get clean data, verified insights, charts, and a full report.")
 
 uploaded_file = st.file_uploader("Upload CSV or Excel", type=["csv", "xlsx", "xls"])
 
