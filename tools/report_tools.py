@@ -177,7 +177,7 @@ def assemble_report(state: dict) -> str:
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    report = f"""#  AI Data Analyst — Report
+    report = f"""#AI Data Analyst — Report
 
 _Generated: {timestamp}_
 
