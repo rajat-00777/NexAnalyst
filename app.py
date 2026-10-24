@@ -295,6 +295,7 @@ if uploaded_file:
 
             with tab7:
                 report_text = result.get("final_report", "")
+
                 if not report_text:
                     st.warning("No report was generated — check for errors above.")
                 else:
@@ -304,4 +305,21 @@ if uploaded_file:
                         file_name="analysis_report.md",
                         mime="text/markdown",
                     )
-                    st.markdown(report_text)
+                    st.markdown(
+            """
+            <h1 style="
+                font-size: 42px;
+                font-weight: 700;
+                margin-top: 25px;
+                margin-bottom: 10px;
+            ">
+                 AI Data Analyst — Report
+            </h1>
+            """,
+            unsafe_allow_html=True
+        )
+
+        # Remove the original Markdown title before rendering the rest
+        report_body = report_text.split("\n", 1)[1]
+
+        st.markdown(report_body)
